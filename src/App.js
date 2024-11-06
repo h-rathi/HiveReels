@@ -14,7 +14,7 @@ const client = new dhive.Client("https://api.hive.blog");
 const getPosts = async () => {
   const query = {
     tag: "hive",
-    limit: 5,
+    limit: 20,
   };
 
   try {
