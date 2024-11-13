@@ -27,7 +27,7 @@ function HivePostSubmission() {
         try {
             
             // http://localhost:3000/submitPost
-            const response = await fetch('https://cors-i42p3b357-himanshu-rathis-projects.vercel.app/', {
+            const response = await fetch('http://localhost:3000/submitPost', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
